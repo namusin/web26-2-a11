@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en\\ko">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>14image_basic</title>
+</head>
+<body>
+
+    <h2>14image_basic</h2>
+    <img src="Penguins.jpg" alt="펭귄" width="300">
+    <img src="nothing" alt="그림 존재하지 않음.펭귄" width="300">
+    <img src="https://i.namu.wiki/i/uGgNlpBMGliEW8RXiIb3OAca2xA4U49R0jRuFENge4EZtV-V1lLyVc4lZCt1veChVj0lw0m7QZjuflmTla7hyx3Rq43aCR6KOZVTFIFUMnRdfFAoaunVGaxF4KMt9y7LOsMd8mWKikIfHJmpqWWIuA.svg"
+            alt="명지전문대 로고" width="300">
+    <img src="horse.webp" width="200">
+
+    <h2>15audio_basic</h2>
+    <audio src="Kalimba.mp3" controls="controls"></audio>
+
+    <h3>16audio_source</h3>
+    <!--웹 브라우저마다 지원하는 파일 확장자가 다른 문제는 audio, video 태그 내부에 source태그를 입력해 해결.-->
+    <audio controls="controls">
+        <source src="Kalimba.mp3" type="audio/mp3">
+        <source src="Kalimba.ogg" type="audio/ogg3">
+    </audio>
+
+    <h2>17video_basic</h2>
+    <video controls="controls">
+        <source src="Wildlife.mp4" type="video/mp4">
+        <source src="Wildlife.webm" type="video/webm">
+    </video>
+
+    <h2>18video_pposter</h2>
+    <video controls="controls" poster="horse.jpg">
+        <source src="Wildlife.mp4" type="video/mp4">
+        <source src="Wildlife.webm" type="video/webm">
+    </video>"
+</body>
+</html>
