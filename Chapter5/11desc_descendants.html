@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>4.후손 선댁자와 자손 선택자</title>
+
+    <style>
+        /*#header h1{color:red;}
+        #section h1{color:rgb(95, 247, 239);}
+        #header h1, #header h2{color:red;}
+        #header h1, h2{color:red;}*/
+
+        #header > h1{color:red;}
+        #section > h1{color:orange;}
+    </style>
+
+
+</head>
+<body>
+    <h2>1.후손 선택자: 특정한 태그의 후손을 선택 (선택지A 선택지B)</h2>
+    <hr>
+
+    <div id="header">
+        <h1 class="title">Lorem ipsum dolor</h1>
+        <div id="nav">
+            <h1>Navigation</h1>
+            <h2>#header안의 h2 - CSS3 Selector Basic</h2>
+        </div>
+    </div>
+    <div id="section">
+        <h1 class="title">lorem ipsum dolor</h1>
+        <h2>#section안의 h2 - CSS3 Selector Basic</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit unde velit saepe obcaecati ab minima, veniam autem aperiam? Dolorem facere natus consequuntur doloribus cumque fugit laboriosam quaerat facilis, quos et.</p>
+    </div>
+</body>
+</html>

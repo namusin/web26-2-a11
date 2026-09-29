@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <title>etc_action.html</title>
+    <style>
+        h1:hover{color:red;}
+        h1:active{color:blue;}
+
+        /*input태그가 사용 가능할 때 background-color속성에 while키워드를 적용함*/
+        input:enabled{background-color:white;}
+
+        /*input태그가 사용 불가능할 때 background-color속성에 grey키워드를 적용함*/
+        input:disabled{background-color:grey;}
+        
+        /*input태그에 포커스를 맞출 때 background-color속성에 orange키워드를 적용함*/
+        input:focus{background-color:orange;}
+    </style>
+</head>
+<body>
+    <h2>5.1반응 선택자</h2>
+    <h2>5.2상태 선택자</h2>
+    <hr>
+
+    <h1>반응 선택자</h1>
+
+    <h2>사용 가능</h2>
+    <input>
+    <h2>사용 불가능</h2>
+    <input disabled="disabled">
+</body>
+</html>
